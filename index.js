@@ -24,9 +24,9 @@ function johnLennonFacts(facts) { // accepts an array of facts
 function iLoveTheBeatles(number) { // takes a number as a parameter
   let i = 0; // index
   let limit = number - 15; // the array length AFTER do while loop executes
-  let love_arr = [""]; // one element array
+  let love_arr = []; // one element array
     do {
-      love_arr[0]+="I love the Beatles!"; // array with strings in one element
+      love_arr[i]+="I love the Beatles!"; // array with strings in one element
       i++ // increment the index
     } while (i < limit && number < 15) // run it number amounts of times
     
