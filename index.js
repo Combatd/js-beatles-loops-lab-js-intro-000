@@ -27,6 +27,6 @@ function iLoveTheBeatles(number) { // takes a number as a parameter
   do {
     love_arr[i] = "I love the Beatles!";
     i++ // increment the index
-  } while (i < number) // run it number amounts of times
+  } while (i === number) // run it number amounts of times
   return love_arr; // return the array
 }
