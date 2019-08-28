@@ -23,10 +23,13 @@ function johnLennonFacts(facts) { // accepts an array of facts
 // create a function iLoveTheBeatles
 function iLoveTheBeatles(number) { // takes a number as a parameter
   let i = 0; // index
+  let limit = number - 15; // the array length AFTER do while loop executes
   let love_arr = []; // empty array
-  do {
-    love_arr.push("I love the Beatles!");
-    i++ // increment the index
-  } while (i < number) // run it number amounts of times
-  return love_arr; // return the array
+  if (number < 15)  
+    do {
+      love_arr.push("I love the Beatles!");
+      i++ // increment the index
+    } while (i < number) // run it number amounts of times
+    
+    return love_arr; // return the array
 }
