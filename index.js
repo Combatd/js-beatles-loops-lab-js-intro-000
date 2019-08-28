@@ -25,11 +25,10 @@ function iLoveTheBeatles(number) { // takes a number as a parameter
   let i = 0; // index
   let limit = number - 15; // the array length AFTER do while loop executes
   let love_arr = []; // empty array
-  if (number < 15)  
     do {
       love_arr.push("I love the Beatles!");
       i++ // increment the index
-    } while (i < number) // run it number amounts of times
+    } while (i < limit) // run it number amounts of times
     
     return love_arr; // return the array
 }
