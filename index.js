@@ -26,6 +26,7 @@ function iLoveTheBeatles(number) { // takes a number as a parameter
   let love_arr = []; // empty array
   do {
     love_arr[i] = "I love the Beatles!";
+    i++ // iterate by 1
   } while (i < number) // run it number amounts of times
   return love_arr; // return the array
 }
